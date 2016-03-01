@@ -9,7 +9,8 @@ Script atualiza determinado arquivo em varios servidores.
 
 ### How do I get set up? ###
 
-* Summary of set upa
+* Summary of set up
+
     Executar bigbang.py no servidor onde está o arquivo de configurações alterados, ele vai atualizar o segundo servidor;
 
 * Configuration
