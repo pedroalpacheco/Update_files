@@ -13,7 +13,9 @@ Script atualiza determinado arquivo em varios servidores.
     Executar bigbang.py no servidor onde está o arquivo de configurações alterados, ele vai atualizar o segundo servidor;
 
 * Configuration
-    Baixar script no server:
+
+    1-Baixar script no server:
+
     git clone https://pedroalpacheco@bitbucket.org/pedroalpacheco/update_files.git
 
     2-Verificar a versão do python no server, recomenda-se a versão 2.7
@@ -36,7 +38,9 @@ Script atualiza determinado arquivo em varios servidores.
 * Dependencies
 
     apt-get install python-pip
+
     apt-get install python-paramiko
+
     pip install pysftp
 
 
