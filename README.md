@@ -14,7 +14,7 @@ Script atualiza determinado arquivo em varios servidores.
 
 * Configuration
     Baixar script no server:
-    #git clone https://pedroalpacheco@bitbucket.org/pedroalpacheco/update_files.git
+    git clone https://pedroalpacheco@bitbucket.org/pedroalpacheco/update_files.git
 
     2-Verificar a versão do python no server, recomenda-se a versão 2.7
 
@@ -23,18 +23,21 @@ Script atualiza determinado arquivo em varios servidores.
         /etc/group
     
     4-Dar pedrmissão chown para o novo usuario no /etc/sudoers:
-    usuarionovo ALL=(root)NOPASSWD: /etc/init.d/tomcat7
+
+        usuarionovo ALL=(root)NOPASSWD: /etc/init.d/tomcat7
+
     ou:
+
         Cmnd_Alias REBOOTOMCAT = /etc/init.d/tomcat7 restart
         # User privilege specification
         desenvolvimento ALL=(ALL) NOPASSWD: REBOOTOMCAT
         atualizapwm ALL=(ALL) NOPASSWD: REBOOTOMCAT
 
 * Dependencies
+
     apt-get install python-pip
     apt-get install python-paramiko
     pip install pysftp
-
 
 
 
