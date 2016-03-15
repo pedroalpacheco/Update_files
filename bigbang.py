@@ -71,7 +71,7 @@ with srv.cd(dirdestino):
     # Envia arquivo ao site
     # Seta permissão no arquivo
     srv.execute(
-        "sudo chmod 664 /var/lib/tomcat7/webapps/pwm/WEB-INF/PwmConfiguration.xml")
+        "sudo chmod 664 " + arqorigem)
     srv.put(arqorigem)
     print("Atualização de server-->client OK!")
     srv.execute("sudo /etc/init.d/tomcat7 restart")
