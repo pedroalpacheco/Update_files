@@ -18,6 +18,10 @@ Script atualiza determinado arquivo em varios servidores.
     1-Baixar script no server:
 
     git clone https://pedroalpacheco@bitbucket.org/pedroalpacheco/update_files.git
+    
+    ou 
+    
+    git clne git@github.com:pedroalpacheco/Update_files.git
 
     2-Verificar a versão do python no server, recomenda-se a versão 2.7
 
