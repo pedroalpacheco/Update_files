@@ -22,10 +22,11 @@ git clne git@github.com:pedroalpacheco/Update_files.git
 		
 		ou:
 		
-			Cmnd_Alias REBOOTOMCAT = /etc/init.d/tomcat7 restart
+			Cmnd_Alias REBOOTOMCAT = /etc/init.d/tomcat7 restart,/bin/chmod
 			# User privilege specification
 			desenvolvimento ALL=(ALL) NOPASSWD: REBOOTOMCAT
 			atualizapwm ALL=(ALL) NOPASSWD: REBOOTOMCAT
+
 		
 		
 REQUERIDO:
