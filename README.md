@@ -21,7 +21,7 @@ Script atualiza determinado arquivo em varios servidores.
     
     ou 
     
-    git clne git@github.com:pedroalpacheco/Update_files.git
+    git clone git@github.com:pedroalpacheco/Update_files.git
 
     2-Verificar a versão do python no server, recomenda-se a versão 2.7
 
